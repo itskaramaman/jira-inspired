@@ -70,3 +70,15 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+@layer utilities {
+  .gradient-bg {
+    @apply bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500;
+  }
+}
+
+.dotted-background {
+  background-color: #0a111f;
+  background-image: radial-gradient(#4a5568 1px, transparent 1px);
+  background-size: 30px 30px;
+}

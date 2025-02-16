@@ -8,7 +8,7 @@ import UserMenu from "./UserMenu";
 
 const Header = () => {
   return (
-    <nav className="flex justify-between items-center py-5 px-8 border-gray-700 bg-gray-950 border-b-2 fixed left-0 right-0">
+    <nav className="flex justify-between items-center py-5 px-8 border-gray-700 bg-gray-900 border-b-2 fixed left-0 right-0">
       <div>
         <Link href="/" className="flex gap-1">
           <p className="bg-blue-500 text-white p-1 w-6 text-center">S</p>
